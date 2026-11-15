@@ -1,0 +1,18 @@
+# Secrets - never commit
+secrets.h
+.env
+
+# Model weights (add a download link in the README instead if large)
+*.pt
+!threat_detection/weights/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
